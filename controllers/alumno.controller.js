@@ -22,7 +22,7 @@ const getAlumnoById = async (req, res) => {
     const { legajo } = req.params
 
     const legajoId = alumnos.find(
-      (a) => a.legajo /*.toString()*/ === Number(legajo)
+      (a) => a.legajo /* .toString() */ === Number(legajo)
     )
 
     if (!legajoId) {
