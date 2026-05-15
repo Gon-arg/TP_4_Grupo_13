@@ -2,7 +2,7 @@ const { Router } = require('express')
 const {
   getServicios,
   getServiciosById
-} = require('../controllers/serviciosController')
+} = require('../controllers/servicios.controller')
 
 const rutas = Router()
 
