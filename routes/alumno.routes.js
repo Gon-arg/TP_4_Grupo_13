@@ -18,4 +18,5 @@ rutas.post('/', validateInputAlumno, postNewAlumno)
 rutas.put('/:legajo', validateInputAlumno, putAlumnoByLegajo)
 rutas.delete('/:legajo', deleteAlumnoByLegajo)
 
-module.exports = rutas
+module.exports = rutas 
+//rutas para los alumnos 

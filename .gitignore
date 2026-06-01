@@ -26,4 +26,5 @@ Thumbs.db
 # --
 vscode/
 .husky/
-.eslintrc.jsonnode_modules/
+.eslintrc.json
+
