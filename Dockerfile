@@ -16,5 +16,5 @@ COPY . .
 # puerto que expone el contenedor
 EXPOSE 3000
 
-# comando para iniciar el servidor
+# comando para iniciar servidores 
 CMD ["npm", "start"]

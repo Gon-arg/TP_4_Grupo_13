@@ -9,4 +9,5 @@ const rutas = Router()
 rutas.get('/', getAlumnoAll)
 rutas.get('/:legajo', getAlumnoById)
 
-module.exports = rutas
+module.exports = rutas 
+//rutas para los alumnos 
